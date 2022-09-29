@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultProject Version="1" MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl" MasterStylesheetOverride="False" SourceControlBound="false" xml:lang="en-gb" MasterToc="/Project/TOCs/2022-07-25 Unite Threat Sample.fltoc" MasterStylesheet="/Content/Resources/Stylesheets/Unite Master Style Sheet.css">
+<CatapultProject Version="1" MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl" MasterStylesheetOverride="False" SourceControlBound="true" xml:lang="en-gb" MasterToc="/Project/TOCs/2022-07-25 Unite Threat Sample.fltoc" MasterStylesheet="/Content/Resources/Stylesheets/Unite Master Style Sheet.css" SourceControlProviderType="Git">
     <Synchronize>
         <Mapping ProjectPath="Content/Resources/Stylesheets/Unite Master Style Sheet.css" ExternalPath="file:///D:/GDRIVE TODEKA/Customers/Unite/Unite Master Style Sheet.css" />
     </Synchronize>
