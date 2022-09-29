@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Normal" Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="4cm" PaddingRight="1.27cm" PaddingTop="4.2mm" PaddingBottom="4.4mm">
+        <Frame Flow="header" Height="0.5in" Right="1px" X="-84px" Y="0.01041667in" ColumnCount="1" Width="7.0625in" Bottom="1041px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 1294px;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>
+                                        <MadCap:snippetText xhtml:src="../Snippets/DocumentTitle.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                                        <xhtml:p><MadCap:variable xhtml:name="Variables.Document Title line 2" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td>
+                                        <xhtml:img xhtml:src="../Images/Red Scarf.png" xhtml:style="float: right;vertical-align: top;" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="0.5in" Right="-1px" Bottom="-3px" X="-100px" Y="10.88542in" Width="7.25in">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 20mm;" />
+                            <xhtml:col />
+                            <xhtml:col xhtml:style="width: 20mm;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: center;"><xhtml:span xhtml:style="font-size: 10pt;">National Organising and Leverage Department	</xhtml:span>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;"><xhtml:span xhtml:style="color: #ff0000;"><xhtml:span xhtml:style="color: #000000;">Page</xhtml:span> </xhtml:span><MadCap:variable xhtml:name="System.PageNumber" xhtml:style="color: #ff0000;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                                    </xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                </xhtml:tr>
+                                <xhtml:tr>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: center;"><xhtml:span xhtml:style="color: #22738a;"><xhtml:span xhtml:style="font-size: 10pt;">PRIVATE &amp; CONFIDENTIAL – DO NOT PASS TO UNAUTHORISED PERSONNEL</xhtml:span></xhtml:span>
+                                    </xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="15.68979cm" Height="9.708333in" X="1px" Y="83px" Right="1px" Bottom="75px" Anchors="">
+        </Frame>
+    </Page>
+</PageStyles>

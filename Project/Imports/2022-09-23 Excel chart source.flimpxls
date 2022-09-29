@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsExcelImport
+  SaveWorkbookToFolder="false"
+  WorksheetImportType="topic"
+  PersistFirstRowAsHeader="false"
+  LimitRows="false"
+  LimitRowsCount="30"
+  SaveChartsAs="true"
+  SaveChartsAsType="Png"
+  ConvertEquations="true"
+  ExclusionFilters=""
+  CreateMasterTopic="false"
+  IncludeWorksheetTitlesAsHeadings="false"
+  ImportHiddenRowsColumns="false"
+  KeepSourceLinks="true"
+  AutoSync="true"
+  Stylesheet=""
+  PreserveSourceStyles="false"
+  LastImport="2022-09-23T12:40:12.5641224+01:00">
+  <Files>
+    <Url
+      Source="../../../../../../GDRIVE TODEKA/Customers/Unite/2022-09-23 Excel chart source.xlsx"
+      AbsoluteSource="file:///D:/GDRIVE TODEKA/Customers/Unite/2022-09-23 Excel chart source.xlsx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/2022-09-23 Excel chart source/Sheet1_Sheet1 Chart 1.png"
+      TimeStamp="23/09/2022 12:39:14" />
+    <Url
+      Source="../../Content/2022-09-23 Excel chart source/Sheet1.htm"
+      TimeStamp="23/09/2022 12:39:16" />
+    <Url
+      Source="../TOCs/2022-09-23 Excel chart source.fltoc"
+      TimeStamp="23/09/2022 12:39:16" />
+  </GeneratedFiles>
+</MsExcelImport>

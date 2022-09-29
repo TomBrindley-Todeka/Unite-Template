@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Left" Width="800" Height="800" Padding="20px" PageSize="A4" PageType="left" PaddingLeft="1.27cm" PaddingRight="1.27cm" PaddingTop="0.42cm" PaddingBottom="0.44cm" BackgroundRepeat="no-repeat" BackgroundImage="none" BackgroundPositionX="170px" BackgroundPositionY="170px">
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="0in" Y="0.7604167in" Right="0.03125in" Bottom="0.7708333in" Width="18.38854cm" Height="24.95021cm" BackgroundRepeat="no-repeat" BackgroundImage="none">
+        </Frame>
+        <Frame Flow="header" Height="0.5in" Right="3px" X="3px" Y="0.01041667in" ColumnCount="1" Width="7.208333in" Bottom="1041px" FlowIndex="1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 1294px;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>
+                                        <MadCap:snippetText xhtml:src="../Snippets/DocumentTitle.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                                    </xhtml:td>
+                                    <xhtml:td>
+                                        <xhtml:img xhtml:src="../Images/Red Scarf.png" xhtml:style="float: right;vertical-align: top;" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="0.5in" Right="1px" Bottom="0px" X="-2px" Y="10.85417in" Width="7.28125in">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 20mm;" />
+                            <xhtml:col />
+                            <xhtml:col xhtml:style="width: 20mm;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: center;"><xhtml:span xhtml:style="font-size: 10pt;">National Organising and Leverage Department	</xhtml:span>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;">&#160;</xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                </xhtml:tr>
+                                <xhtml:tr>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: center;"><xhtml:span xhtml:style="color: #22738a;"><xhtml:span xhtml:style="font-size: 10pt;">PRIVATE &amp; CONFIDENTIAL – DO NOT PASS TO UNAUTHORISED PERSONNEL</xhtml:span></xhtml:span>
+                                    </xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Right" Width="800" Height="800" Padding="20px" PageSize="A4" PageType="right" PaddingLeft="1.27cm" PaddingRight="1.27cm" PaddingTop="0.42cm" PaddingBottom="0.44cm">
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="0in" Y="0.6458333in" Right="0in" Bottom="0.96875in" Width="18.46792cm" Height="24.73854cm">
+        </Frame>
+        <Frame Flow="header" Height="0.5in" Right="3px" X="3px" Y="0.01041667in" ColumnCount="1" Width="7.208333in" Bottom="1041px" FlowIndex="1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 1294px;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>
+                                        <MadCap:snippetText xhtml:src="../Snippets/DocumentTitle.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                                    </xhtml:td>
+                                    <xhtml:td>
+                                        <xhtml:img xhtml:src="../Images/Red Scarf.png" xhtml:style="float: right;vertical-align: top;" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="0.5in" Right="4px" Bottom="1px" X="-3px" Y="10.84375in" Width="7.260417in">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 20mm;" />
+                            <xhtml:col />
+                            <xhtml:col xhtml:style="width: 20mm;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: center;"><xhtml:span xhtml:style="font-size: 10pt;">National Organising and Leverage Department	</xhtml:span>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;">&#160;</xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                </xhtml:tr>
+                                <xhtml:tr>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: center;"><xhtml:span xhtml:style="color: #22738a;"><xhtml:span xhtml:style="font-size: 10pt;">PRIVATE &amp; CONFIDENTIAL – DO NOT PASS TO UNAUTHORISED PERSONNEL</xhtml:span></xhtml:span>
+                                    </xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="First" Width="800" Height="800" Padding="20px" PageSize="A4" PageType="first" PaddingLeft="1.27cm" PaddingRight="1.27cm" PaddingTop="0.42cm" PaddingBottom="0.44cm">
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="0in" Y="0px" Right="0.04166667in" Bottom="1.625in" Width="18.36208cm" Height="24.71208cm">
+        </Frame>
+        <Frame X="203px" Y="843px" Width="250px" Height="250px" Flow="decoration0" Right="245px" Bottom="-3px" BackgroundRepeat="stretch" Anchors="" BackgroundImage="../Images/Unite jigsaw.png" />
+        <Frame X="-2px" Y="-4px" Width="700px" Height="372px" Flow="decoration0" Right="0px" Bottom="722px" BackgroundRepeat="stretch" Anchors="" BackgroundImage="../Images/FP combined.png" />
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="A4" PageType="empty" Name="Empty" PaddingRight="3.5cm" PaddingLeft="2.5cm" PaddingTop="2.5cm" PaddingBottom="2.5cm">
+    </Page>
+</PageStyles>

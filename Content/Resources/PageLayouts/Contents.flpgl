@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Normal" Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="1.27cm" PaddingRight="1.27cm" PaddingTop="0.42cm" PaddingBottom="0.44cm">
+        <Frame Flow="header" Height="0.5in" Right="2px" X="2px" Y="0.01041667in" ColumnCount="1" Width="7.229167in" Bottom="1041px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 1294px;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>
+                                        <MadCap:snippetText xhtml:src="../Snippets/DocumentTitle.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                                    </xhtml:td>
+                                    <xhtml:td>
+                                        <xhtml:img xhtml:src="../Images/Red Scarf.png" xhtml:style="float: right;vertical-align: top;" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="0.5in" Right="3px" Bottom="2px" X="71px" Y="10.83333in" Width="6.5in">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 20mm;" />
+                            <xhtml:col />
+                            <xhtml:col xhtml:style="width: 20mm;" />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: center;"><xhtml:span xhtml:style="font-size: 10pt;">National Organising and Leverage Department	</xhtml:span>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;color: #ff0000;">&#160;</xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                </xhtml:tr>
+                                <xhtml:tr>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: center;"><xhtml:span xhtml:style="color: #22738a;"><xhtml:span xhtml:style="font-size: 10pt;">PRIVATE &amp; CONFIDENTIAL – DO NOT PASS TO UNAUTHORISED PERSONNEL</xhtml:span></xhtml:span>
+                                    </xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                    <xhtml:td>&#160;</xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="7.291667in" Height="9.9375in" X="-1px" Y="74px" Right="-1px" Bottom="62px">
+        </Frame>
+    </Page>
+</PageStyles>

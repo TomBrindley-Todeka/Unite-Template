@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="Unite">Unite</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber"
+    EvaluatedDefinition="010 xxx xxxx">010 xxx xxxx</Variable>
+  <Variable
+    Name="Version"
+    Comment=""
+    EvaluatedDefinition="0.01">0.01</Variable>
+  <Variable
+    Name="Release Date"
+    Comment="" />
+  <Variable
+    Name="Confidentiality"
+    Comment="Delete text if unclassified"
+    EvaluatedDefinition="PRIVATE &amp; CONFIDENTIAL – DO NOT PASS TO UNAUTHORISED PERSONNEL">PRIVATE &amp; CONFIDENTIAL – DO NOT PASS TO UNAUTHORISED PERSONNEL</Variable>
+  <Variable
+    Name="Document Title"
+    Comment=""
+    EvaluatedDefinition="Tutorial Threat Paper">Tutorial Threat Paper</Variable>
+  <Variable
+    Name="Document SubTitle"
+    Comment=""
+    EvaluatedDefinition="Tutorial 22/9/2022">Tutorial 22/9/2022</Variable>
+  <Variable
+    Name="Document date"
+    Comment=""
+    EvaluatedDefinition="19 September 2022">19 September 2022</Variable>
+  <Variable
+    Name="Author"
+    Comment=""
+    EvaluatedDefinition="T H Brindley">T H Brindley</Variable>
+  <Variable
+    Name="Department"
+    Comment=""
+    EvaluatedDefinition="National Organising and Leverage Department">National Organising and Leverage Department</Variable>
+  <Variable
+    Name="Document Title line 2"
+    Comment=""
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="Section Title"
+    Comment="Overwritten at new section"
+    EvaluatedDefinition="Context">Context</Variable>
+</CatapultVariableSet>

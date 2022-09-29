@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>GIT Notes</h1>
+        <p>GIT&#160;is a technology for managing changes to files (Source Control). </p>
+        <h2 MadCap:autonum="1 ">Local Repository</h2>
+        <p>GIT&#160;takes content from the source project and stores it locally, normally on your PC&#160;or local network. This icalled the local repository and is a database of files and changes.</p>
+        <h3>COMMIT</h3>
+        <p> Each time a file is changed and the <b>COMMIT</b>&#160;command issued, the changes to the file (not the entire file) are copied to the local GIT database. At this stage, other users cannot see the changes. <b>COMMIT&#160;ALL</b> commits all saved files with changes.</p>
+        <h2 MadCap:autonum="2 ">Remote Repository</h2>
+        <p>The <i>Remote Repository</i> holds the master copy of the files. All users (with the necessary permissions) can see files in the <i>Remote Repository</i>.</p>
+        <h3>PUSH</h3>
+        <p>The <b>PUSH</b> command copies changes from the <i>Local Repository</i> to the <i>Remote Repository</i>.</p>
+        <h3>PULL</h3>
+        <p>The <b>PULL</b> command copies changes from the <i>Remote Repository</i> to the <i>Local Repository</i>.</p>
+        <h3>SYNCHRONIZE</h3>
+        <p>The <b>SYNCHRONIZE</b> command combines a <b>COMMIT</b> and a <b>PUSH</b>.</p>
+        <h2 MadCap:autonum="3 ">Source Control Tools</h2>
+        <h3>REVERT (ALL)</h3>
+        <p><b>REVERT/ REVERT ALL</b> lists files that have been edited but <b>not</b> committed and allows you to undo the changes.</p>
+        <h3>SHOW&#160;DIFFERENCES</h3>
+        <p><b>SHOW&#160;DIFFERENCES</b> compares saved, uncommitted project files with the files in the <i>Local Repository</i>.</p>
+        <h3>PENDING&#160;CHANGES</h3>
+        <p>Lists saved files that have not been committed. Like this</p>
+        <p>
+            <img src="../../../../../GIT_Test/GIT Test/Content/Resources/Images/Pending changes.png" style="width: 100%;" />
+        </p>
+        <h3>ADD</h3>
+        <p>Adds a file to source control. (There must be a newly created file.) Not usually needed as <b>Commit All</b> will pick up all new files.</p>
+        <h2 MadCap:autonum="4 ">Branches</h2>
+        <p>By default, all changes are stored in the Main repository and so are visible and will synchronise with all users.</p>
+        <p>But you may want to experiment - make changes to a project that you do not want everyone to use (or even see). Perhaps a sub-team will work on this option. To do this, create a branch.</p>
+        <p>If, after making your changes you want them to become mainstream. you can merge the branch with the main.</p>
+        <p>&#160;</p>
+        <h2 MadCap:autonum="5 ">To create a branch</h2>
+        <p>Select Branch. A&#160;list of existing branches is shown. You can use an existing branch, or create a new one.</p>
+        <p>If you switch to branch, commits and pushes will be made to the branch and the main is not affected.</p>
+        <p>
+            <img src="../../../../../GIT_Test/GIT Test/Content/Resources/Images/Branch commit.png" style="width: 100%;" />
+        </p>
+        <h2 MadCap:autonum="6 ">Merge branches</h2>
+        <p>
+            <img src="../../../../../GIT_Test/GIT Test/Content/Resources/Images/Merge branch.png" />
+        </p>
+        <p>Note: Ensure you have switched to Master, using the Branch&gt;Switch command.</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../../../../GIT_Test/GIT Test/Content/Resources/Images/Switch branch.png" />
+        </p>
+        <h3>Branch History</h3>
+        <p>The Branch History command lists all branch related activity.</p>
+        <p>
+            <img src="../../../../../GIT_Test/GIT Test/Content/Resources/Images/Branch History.png" style="width: 100%;" />
+        </p>
+        <p>&#160;</p>
+    </body>
+</html>

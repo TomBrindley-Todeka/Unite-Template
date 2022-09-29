@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Adobe PDF Target"
+  Type="PDF"
+  GlossaryTermConversion="marked"
+  MasterPageLayout="/Content/Resources/PageLayouts/Inside.flpgl"
+  MasterToc="/Project/TOCs/2022-07-25 Unite Threat Sample.fltoc"
+  PatchHeadingLevels="false"
+  InjectEmptyPages="true"
+  GetLatestBeforeCompile="false"
+  ConditionTagExpression="exclude[Default.AuthorHint]"
+  MasterStylesheet="/Content/Resources/Stylesheets/Unite Master Style Sheet.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <PDF
+    ShowUsedBookmarks="false"
+    PageLayout="TwoPageRight" />
+  <DocumentProperties
+    Title="Unite Threat Template" />
+</CatapultTarget>

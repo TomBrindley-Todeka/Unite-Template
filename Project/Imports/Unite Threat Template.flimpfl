@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" MasterStylesheet="/Content/Resources/Stylesheets/2022-07-25 Unite Style Sheet word template.css" MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl" MasterStylesheetOverride="False" SourceControlBound="true" xml:lang="en-gb" MasterToc="/Project/TOCs/2022-07-25 Unite Threat Sample.fltoc" SourceControlProviderType="Git" ProjectGuid="2b6fe5de-1747-4788-a1f3-66fa737cfc8f" IncludePattern="*.css;*.flpgl;*.fltar" AutoExcludeNonTaggedFiles="false" IncludeLinkedFiles="false" DeleteStale="false" DeleteUnreferenced="false" AutoSync="true" LastImport="2022-09-29T10:02:43.8946900+01:00">
+    <Files>
+        <Url Source="https://github/TomBrindley-Todeka/Flare" AbsoluteSource="https://github/TomBrindley-Todeka/Flare" />
+    </Files>
+    <ExcludedFiles>
+        <Url Source="../Targets/PDF.fltar" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Project/Targets/PDF.fltar" />
+    </ExcludedFiles>
+    <CollectedSourceFiles>
+        <Url Source="../../Content/Resources/PageLayouts/Contents.flpgl" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/PageLayouts/Contents.flpgl" />
+        <Url Source="../../Content/Resources/PageLayouts/Default.flpgl" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/PageLayouts/Default.flpgl" />
+        <Url Source="../../Content/Resources/PageLayouts/Inside.flpgl" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/PageLayouts/Inside.flpgl" />
+        <Url Source="../../Content/Resources/PageLayouts/UniteFrontPage1.flpgl" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/PageLayouts/UniteFrontPage1.flpgl" />
+        <Url Source="../../Content/Resources/PageLayouts/UniteFrontPage2.flpgl" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/PageLayouts/UniteFrontPage2.flpgl" />
+        <Url Source="../../Content/Resources/Stylesheets/Unite Master Style Sheet.css" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/Stylesheets/Unite Master Style Sheet.css" />
+        <Url Source="../../Content/Resources/TableStyles/Basic.css" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/TableStyles/Basic.css" />
+        <Url Source="../../Content/Resources/TableStyles/Unite T1.css" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/TableStyles/Unite T1.css" />
+        <Url Source="../../Content/Resources/TableStyles/Unite T2.css" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/TableStyles/Unite T2.css" />
+        <Url Source="../../Content/Resources/TableStyles/Unite T3.css" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Content/Resources/TableStyles/Unite T3.css" />
+        <Url Source="../Targets/PDF.fltar" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Project/Targets/PDF.fltar" />
+        <Url Source="../Targets/Tutorial.fltar" AbsoluteSource="file:///D:/Documents/My Projects/Unite Threat Template/Project/Targets/Tutorial.fltar" />
+    </CollectedSourceFiles>
+    <SkippedSourceFiles />
+    <GeneratedFiles>
+        <Url Source="../../Content/Resources/PageLayouts/Contents.flpgl" TimeStamp="01/01/0002 00:00:00" />
+        <Url Source="../../Content/Resources/PageLayouts/Default.flpgl" TimeStamp="01/01/0001 00:00:00" />
+        <Url Source="../../Content/Resources/PageLayouts/Inside.flpgl" TimeStamp="01/01/0001 00:00:00" />
+        <Url Source="../../Content/Resources/PageLayouts/UniteFrontPage1.flpgl" TimeStamp="01/01/0001 00:00:00" />
+        <Url Source="../../Content/Resources/PageLayouts/UniteFrontPage2.flpgl" TimeStamp="01/01/0001 00:00:00" />
+        <Url Source="../../Content/Resources/Stylesheets/Unite Master Style Sheet.css" TimeStamp="01/01/0001 00:00:00" />
+        <Url Source="../../Content/Resources/TableStyles/Basic.css" TimeStamp="01/01/0001 00:00:00" />
+        <Url Source="../../Content/Resources/TableStyles/Unite T1.css" TimeStamp="08/08/2022 12:54:19" />
+        <Url Source="../../Content/Resources/TableStyles/Unite T2.css" TimeStamp="08/08/2022 12:54:19" />
+        <Url Source="../../Content/Resources/TableStyles/Unite T3.css" TimeStamp="01/01/0001 00:00:00" />
+        <Url Source="../Targets/PDF.fltar" TimeStamp="01/01/0001 00:00:00" />
+        <Url Source="../Targets/Tutorial.fltar" TimeStamp="01/01/0001 00:00:00" />
+    </GeneratedFiles>
+</CatapultProject>

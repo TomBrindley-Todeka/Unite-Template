@@ -1,0 +1,1355 @@
+/*<meta />*/
+
+table.TableStyle-Unite T1
+{
+	width: 100% !important;
+}
+
+h1.SectionDividerHead
+{
+	page-break-after: avoid;
+	font-size: 50pt;
+	margin-top: 0pt;
+	margin-bottom: 12pt;
+	mc-heading-level: 1;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #22738a;
+	page-break-before: always;
+	margin-left: 3.5cm;
+}
+
+h2.SectionHeadingNoIndent
+{
+	font-family: Calibri;
+	color: #c40400;
+	font-size: 20pt;
+	font-weight: normal;
+	mc-heading-level: 3;
+	margin-bottom: 6 pt;
+	margin-top: 18pt;
+	mc-auto-number-position: outside-head;
+	margin-left: 0cm;
+	mc-auto-number-format: 'SH:{n}.{n+}  ';
+	mc-auto-number-offset: 15mm;
+	mc-leader-align: right;
+	mc-auto-number-class: mc-auto-number-position;
+	page-break-after: avoid;
+}
+
+h2.SubHeading-First
+{
+	page-break-after: avoid;
+	margin-bottom: 6pt;
+	margin-top: 18pt;
+	font-size: 16pt;
+	mc-heading-level: 2;
+	font-family: Calibri;
+	font-weight: normal;
+	color: #000000;
+	mc-auto-number-position: outside-head;
+	mc-auto-number-offset: 8mm;
+	mc-auto-number-format: 'CH:{chapnum}.{n=1} ';
+}
+
+h3.MinorSubHeading-First
+{
+	page-break-after: avoid;
+	margin-bottom: 6pt;
+	margin-top: 18pt;
+	mc-heading-level: 3;
+	font-family: Calibri;
+	color: #22738A;
+	font-size: 14pt;
+	font-weight: normal;
+	mc-auto-number-format: 'CH:{chapnum}{n}.{n=1} ';
+	margin-left: 3.5cm;
+}
+
+h4.Level4Heading-First
+{
+	page-break-after: avoid;
+	margin-bottom: 6pt;
+	margin-top: 18pt;
+	mc-heading-level: 4;
+	font-family: Calibri;
+	color: #22738A;
+	font-size: 13pt;
+	font-weight: normal;
+	mc-auto-number-format: 'CH:{chapnum}.{n}.{n}.{n=1} ';
+	margin-left: 3.5cm;
+}
+
+p.TableTitle
+{
+	font-weight: bold;
+	mc-hyphenate: never;
+	text-align: center;
+	mc-auto-number-format: 'GT: Table {n+}: ';
+}
+
+p.FigureTitle
+{
+	font-weight: bold;
+	text-align: center;
+	mc-auto-number-format: 'GF: Figure {n+} ';
+}
+
+p.NumBullet1-First
+{
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+	font-family: Calibri;
+	mc-auto-number-format: 'A:{color red}{n=1}.  {/color} ';
+	text-indent: -5mm;
+	mc-auto-number-offset: -5mm;
+	mc-auto-number-position: inside-head;
+	margin-left: 4cm;
+}
+
+p.NumBullet2-First1
+{
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+	mc-auto-number-offset: 10mm;
+	mc-auto-number-format: 'B:{color red}{a=1}.{/color}  ';
+	text-indent: -5mm;
+	margin-left: 4.6cm;
+}
+
+p.NumBullet3-First
+{
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+	mc-auto-number-offset: 20mm;
+	mc-auto-number-format: 'SC:{color red}{r=1}.{/color}  ';
+	text-indent: -5mm;
+	margin-left: 5.2cm;
+}
+
+MadCap|variable.Threat_Running_HF_6
+{
+	
+}
+
+MadCap|variable.Threat_Section_Head
+{
+	
+}
+
+span.DeletableText
+{
+	color: #c40400;
+	background: #ffff00;
+}
+
+p.Unite_Col2_Body
+{
+	color: #000000;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	font-family: Calibri;
+	margin-left: 0;
+	text-align: center;
+	font-size: 11pt;
+}
+
+/*<meta sourceDocument="D:\GDRIVE TODEKA\Customers\Unite\2022-05-02 Unite Style Sheet word template.docx" />*/
+
+p
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	margin-left: 0cm;
+}
+
+ol
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+}
+
+ul
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+}
+
+li
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+}
+
+td
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	vertical-align: top;
+}
+
+p.FooterConfidential
+{
+	text-align: center;
+	margin-top: 4pt;
+	font-family: Calibri;
+	color: #22738A;
+	font-size: 10pt;
+}
+
+p.Spacer
+{
+	color: #000000;
+	font-family: Arial;
+	font-size: 1pt;
+}
+
+p.Confidential
+{
+	text-align: right;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 10pt;
+	background: #c0c0c0;
+	margin-left: 60mm;
+	margin-right: 5mm;
+}
+
+p.DocTitle
+{
+	text-align: right;
+	font-family: Calibri;
+	color: #FFFFFF;
+	font-size: 40pt;
+	margin-bottom: 0;
+	margin-right: 5mm;
+	margin-left: 70mm;
+	background: transparent;
+}
+
+p.DocSubTitle
+{
+	text-align: right;
+	font-family: Calibri;
+	color: #FFFFFF;
+	font-size: 20pt;
+	margin-top: 0px;
+	margin-right: 5mm;
+	margin-left: 60mm;
+	background: transparent;
+}
+
+p.DocDate
+{
+	text-align: right;
+	font-family: Calibri;
+	color: #C40400;
+	font-size: 14pt;
+	margin-right: 5mm;
+	margin-left: 140mm;
+	background: transparent;
+}
+
+p.GraphicRight
+{
+	color: #000000;
+	font-size: 13pt;
+	text-align: right;
+	font-family: Calibri;
+}
+
+p.GraphicLeft
+{
+	color: #000000;
+	font-size: 13pt;
+	font-family: Calibri;
+}
+
+p.SecHeadNonToc
+{
+	page-break-after: avoid;
+	margin-bottom: 12pt;
+	font-family: Calibri;
+	color: #C40400;
+	font-size: 20pt;
+	page-break-before: always;
+	font-weight: bold;
+}
+
+p.Unite_Table_Header
+{
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	page-break-after: avoid;
+	font-family: Calibri;
+	margin-left: 0;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+}
+
+p.Unite_Col1_Body
+{
+	color: #000000;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	font-family: Calibri;
+	margin-left: 0;
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.TOC5
+{
+	margin-bottom: 4pt;
+	margin-left: 0pt;
+	text-indent: 28pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+	color: #C40400;
+	font-size: 14pt;
+	margin-right: 0pt;
+}
+
+p.TOC1
+{
+	margin-bottom: 4pt;
+	margin-left: 0pt;
+	text-indent: 28pt;
+	font-family: Calibri;
+	font-size: 20pt;
+	color: #91b9c5;
+	margin-right: 0pt;
+}
+
+p.TOC2
+{
+	margin-bottom: 3pt;
+	text-indent: -31pt;
+	font-family: Calibri;
+	font-size: 14pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	color: #c40400;
+	font-weight: bold;
+}
+
+p.TOC3
+{
+	margin-bottom: 3pt;
+	font-family: Calibri;
+	font-size: 14pt;
+	font-weight: normal;
+	margin-right: 0pt;
+	margin-left: 0pt;
+	color: #c40400;
+	text-indent: 0pt;
+	hanging-punctuation: first;
+}
+
+p.TOC4
+{
+	margin-bottom: 3pt;
+	color: #000000;
+	font-size: 12pt;
+	text-indent: -64pt;
+	font-family: Calibri;
+	margin-right: 0;
+	margin-top: 3pt;
+	margin-left: 0;
+}
+
+p.TOC6
+{
+	margin-bottom: 4pt;
+	margin-left: 0pt;
+	text-indent: 28pt;
+	font-family: Calibri;
+	color: #22738A;
+	font-size: 20pt;
+	margin-top: 0pt;
+	margin-right: 0pt;
+}
+
+p.SumHead
+{
+	page-break-after: avoid;
+	color: #C40400;
+	font-size: 20pt;
+	page-break-before: always;
+	margin-bottom: 6pt;
+	mc-heading-level: 1;
+	font-family: Calibri;
+}
+
+p.IntroText
+{
+	margin-bottom: 6pt;
+	font-size: 13pt;
+	margin-top: 6pt;
+	font-family: Calibri;
+	color: #22738A;
+}
+
+p.SumSubHead
+{
+	page-break-after: avoid;
+	color: #C40400;
+	margin-bottom: 6pt;
+	mc-heading-level: 1;
+	margin-top: 18pt;
+	font-family: Calibri;
+	font-size: 16pt;
+}
+
+col.col_1
+{
+	width: 397pt;
+}
+
+td.td_1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+}
+
+tr.tr_1
+{
+	height: 18pt;
+}
+
+table.table_1
+{
+	border-collapse: collapse;
+}
+
+p.p_1
+{
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+col.col_2
+{
+	width: 199pt;
+}
+
+col.col_3
+{
+	width: 251pt;
+}
+
+img.img_1
+{
+	visibility: visible;
+	mso-wrap-style: square;
+	width: 265px;
+	height: 302px;
+}
+
+img.img_2
+{
+	visibility: visible;
+	mso-wrap-style: square;
+	width: 335px;
+	height: 301px;
+}
+
+tr.tr_2
+{
+	height: 227pt;
+}
+
+col.col_4
+{
+	width: 78pt;
+}
+
+col.col_5
+{
+	width: 99pt;
+}
+
+col.col_6
+{
+	width: 255pt;
+}
+
+th.th_1
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #C40400;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: #C40400;
+	padding-left: 0pt;
+	padding-right: 0pt;
+}
+
+th.th_2
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #C40400;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: #C40400;
+	padding-left: 5pt;
+	padding-right: 0pt;
+}
+
+tr.tr_3
+{
+	height: 6pt;
+}
+
+td.td_2
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #C40400;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: #E8E6E4;
+	padding-left: 0pt;
+	padding-right: 0pt;
+}
+
+td.td_3
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #C40400;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: #E8E6E4;
+	padding-left: 5pt;
+	padding-right: 0pt;
+}
+
+tr.tr_4
+{
+	height: 3pt;
+}
+
+td.td_4
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #E8E6E4;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: #E8E6E4;
+	padding-left: 0pt;
+	padding-right: 0pt;
+}
+
+td.td_5
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #E8E6E4;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: #E8E6E4;
+	padding-left: 5pt;
+	padding-right: 0pt;
+}
+
+tr.tr_5
+{
+	height: 27pt;
+}
+
+td.td_6
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #E8E6E4;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: #C40400;
+	padding-left: 0pt;
+	padding-right: 0pt;
+}
+
+td.td_7
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #E8E6E4;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: #C40400;
+	padding-left: 5pt;
+	padding-right: 0pt;
+}
+
+col.col_7
+{
+	width: 510pt;
+}
+
+span.span_1
+{
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+p.Spacer_1
+{
+	font-family: Arial;
+	font-size: 1pt;
+	color: #FFFFFF;
+	background-color: #FFFF00;
+}
+
+h1.SectionHeadingNoIndent
+{
+	page-break-after: avoid;
+	color: #C40400;
+	font-size: 20pt;
+	margin-top: 18pt;
+	margin-bottom: 6pt;
+	mc-heading-level: 2;
+	font-family: Calibri;
+	page-break-before: avoid;
+	font-weight: bold;
+	margin-left: 0cm;
+	mc-auto-number-format: 'SH:{n+} ';
+	mc-auto-number-position: outside-head;
+	mc-auto-number-offset: 5mm;
+}
+
+h2.SubHeading
+{
+	page-break-after: avoid;
+	color: #C40400;
+	margin-bottom: 6pt;
+	margin-top: 18pt;
+	font-size: 16pt;
+	mc-heading-level: 3;
+	font-family: Calibri;
+	font-weight: normal;
+	mc-auto-number-format: 'CH:{chapnum}{n+} ';
+}
+
+h3.MinorSubHeading
+{
+	page-break-after: avoid;
+	margin-bottom: 6pt;
+	margin-top: 18pt;
+	mc-heading-level: 3;
+	font-family: Calibri;
+	color: #22738A;
+	font-size: 14pt;
+	font-weight: normal;
+	margin-left: 3.5cm;
+	mc-auto-number-format: 'SH:{secnum}.{n}.{n+} ';
+}
+
+h4.Level4Heading
+{
+	page-break-after: avoid;
+	margin-bottom: 6pt;
+	margin-top: 18pt;
+	mc-heading-level: 4;
+	font-family: Calibri;
+	color: #22738A;
+	font-size: 13pt;
+	font-weight: normal;
+	margin-left: 3.5cm;
+	mc-auto-number-format: 'SH:{secnum}.{n}.{n}.{n+} ';
+}
+
+p.BodyHeading
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	font-family: Calibri;
+	font-weight: bold;
+	page-break-after: avoid;
+	margin-left: 3.5cm;
+}
+
+p.Bullet1
+{
+	margin-top: 8pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-bottom: 4pt;
+	font-family: Calibri;
+	mc-auto-number-offset: -6mm;
+	mc-auto-number-format: '• ';
+	mc-hyphenate: never;
+	text-indent: -3mm;
+	margin-left: 4cm;
+}
+
+li.Bullet1
+{
+	margin-top: 8pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-bottom: 4pt;
+	font-family: Calibri;
+}
+
+p.Bullet2
+{
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+	mc-auto-number-format: 'B:{color red}-   {/color} ';
+	text-indent: -5mm;
+	margin-bottom: 4pt;
+	margin-left: 4.5cm;
+}
+
+li.Bullet2
+{
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+}
+
+p.Bullet3
+{
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+	mc-auto-number-format: 'B:{color red}-   {/color} ';
+	text-indent: -5mm;
+	margin-left: 5.cm;
+}
+
+li.Bullet3
+{
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+}
+
+p.NumBullet1
+{
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+	font-family: Calibri;
+	mc-auto-number-offset: -5mm;
+	mc-auto-number-format: 'A:{color red}{n+}.  {/color} ';
+	text-indent: -5mm;
+	margin-left: 4cm;
+}
+
+li.NumBullet1
+{
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+	font-family: Calibri;
+}
+
+p.NumBullet2
+{
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+	mc-auto-number-offset: 10mm;
+	mc-auto-number-format: 'B:{color red}{a+}.{/color}  ';
+	text-indent: -5mm;
+	margin-left: 4.6cm;
+}
+
+li.NumBullet2
+{
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+}
+
+p.NumBullet3
+{
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+	mc-auto-number-offset: 20mm;
+	mc-auto-number-format: 'SC:{color red}{r+}.{/color}  ';
+	text-indent: -5mm;
+	margin-left: 5.2cm;
+}
+
+li.NumBullet3
+{
+	margin-bottom: 6pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-top: 0pt;
+	font-family: Calibri;
+}
+
+span.span_2
+{
+	margin-right: 0pt;
+	font-family: 'Times New Roman';
+}
+
+ul.ul_1
+{
+	padding-left: 0px;
+	list-style-type: square;
+}
+
+ol.ol_1
+{
+	padding-left: 0px;
+	list-style-type: lower-roman;
+}
+
+ol.ol_2
+{
+	padding-left: 0px;
+	list-style-type: lower-alpha;
+}
+
+ol.ol_3
+{
+	padding-left: 0px;
+	list-style-type: decimal;
+}
+
+ol.ol_4
+{
+	padding-left: 0px;
+	list-style-type: decimal;
+	margin-left: 0pt;
+}
+
+span.span_3
+{
+	text-transform: uppercase;
+}
+
+img.img_3
+{
+	z-index: 2;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: page;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: page;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	margin-left: 42.55pt;
+	width: 132px;
+	height: 164px;
+}
+
+col.col_8
+{
+	width: 468pt;
+}
+
+col.col_9
+{
+	width: 43pt;
+}
+
+td.td_8
+{
+	vertical-align: bottom;
+	padding-left: 0pt;
+	padding-right: 0pt;
+}
+
+p.p_2
+{
+	text-align: right;
+}
+
+tr.tr_6
+{
+	height: 17pt;
+}
+
+p.BodyText
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	margin-left: 3.5cm;
+	text-indent: 0cm;
+	mc-hyphenate: never;
+}
+
+ul.Bullet1
+{
+	list-style-type: disc;
+}
+
+ul.Bullet3
+{
+	
+}
+
+ul.Bullet3 > li > ul > li > ul
+{
+	list-style-image: none;
+}
+
+ul.Bullet3 > li > ul > li > ul > li::marker
+{
+	content: '-';
+}
+
+p.FigureHead
+{
+	page-break-after: avoid;
+	margin-bottom: 12pt;
+	font-family: Calibri;
+	page-break-before: avoid;
+	font-size: 16pt;
+	color: #5f9ea0;
+}
+
+MadCap|variable.PageNum
+{
+	color: #ff0000;
+}
+
+i.See_xxx
+{
+	font-weight: bold;
+}
+
+p.SectionHead
+{
+	page-break-after: avoid;
+	page-break-before: always;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	background-color: #c0c0c0;
+	color: #4682b4;
+	font-size: 50pt;
+	border-bottom-color: #ff0000;
+	border-top-color: #ff0000;
+	height: 4cm;
+	text-transform: uppercase;
+	vertical-align: middle;
+	text-align: center;
+	border-bottom-width: 1pt;
+	border-top-width: 1pt;
+	top: 7cm;
+	margin-top: 5cm;
+	border-top: solid 1mm #ff0000;
+	border-bottom: solid 1mm #ff0000;
+	mc-heading-level: 6;
+}
+
+body
+{
+	border-top: solid 0mm transparent;
+	border-top-color: transparent;
+	border-bottom: solid 0mm transparent;
+	border-bottom-color: transparent;
+}
+
+p.TableFirst
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	font-size: 13pt;
+	color: #4e8fa1;
+}
+
+h2.SubHeadingBlack
+{
+	page-break-after: avoid;
+	margin-bottom: 6pt;
+	margin-top: 18pt;
+	font-size: 16pt;
+	mc-heading-level: 2;
+	font-family: Calibri;
+	font-weight: bold;
+	mc-auto-number-format: 'CH:{chapnum}.{n+} ';
+}
+
+p.SeeSection
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	font-style: italic;
+}
+
+p#SeeSection
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	font-style: inherit;
+}
+
+h2.SubHeading-First_IndentNum
+{
+	page-break-after: avoid;
+	margin-bottom: 6pt;
+	margin-top: 18pt;
+	font-size: 16pt;
+	mc-heading-level: 2;
+	font-family: Calibri;
+	color: #000000;
+	margin: 0;
+	mc-auto-number-offset: 8mm;
+	font-weight: bold;
+	mc-auto-number-format: 'CH:{chapnum}.{n=1} ';
+}
+
+p.UnnumberedHeading
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+p.SectionDividerHead
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	font-size: 50pt;
+	mc-heading-level: 1;
+	page-break-before: always;
+	color: #22738a;
+}
+
+p.DeleteText	/*Text to be deleted/excluded*/
+{
+	
+}
+
+p.TemplateNote
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	background: #ffff00;
+	margin-right: 0cm;
+	margin-left: 3.5 cm;
+}
+
+p.TemplateBody
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	margin-left: 0cm;
+	margin-right: 0cm;
+}
+
+h1
+{
+	font-family: Calibri;
+	color: #c40400;
+	font-size: 20pt;
+	mc-heading-level: 2;
+	page-break-before: avoid;
+	margin-bottom: 6 pt;
+	margin-top: 18pt;
+	margin-left: 0cm;
+}
+
+h2
+{
+	font-family: Calibri;
+	color: #c40400;
+	mc-auto-number-format: '{n+} ';
+	font-size: 20pt;
+	font-weight: normal;
+	mc-heading-level: 3;
+	margin-bottom: 6 pt;
+	margin-top: 18pt;
+	mc-auto-number-position: outside-head;
+	mc-auto-number-offset: 8mm;
+	margin-left: 0cm;
+}
+
+p.RevisionHead
+{
+	page-break-after: avoid;
+	margin-bottom: 12pt;
+	font-family: Calibri;
+	color: #C40400;
+	font-size: 20pt;
+	font-weight: bold;
+	margin-left: 0;
+}
+
+h1.SectionHeadingNum
+{
+	page-break-after: avoid;
+	color: #C40400;
+	font-size: 20pt;
+	margin-top: 18pt;
+	margin-bottom: 6pt;
+	mc-heading-level: 2;
+	font-family: Calibri;
+	page-break-before: avoid;
+	font-weight: bold;
+	mc-auto-number-position: outside-head;
+	margin-left: 3.5cm;
+	mc-auto-number-offset: 10mm;
+	mc-auto-number-format: 'SH:{n+}  ';
+}
+
+h2.SectionHeadingL2Num
+{
+	font-family: Calibri;
+	color: #c40400;
+	font-size: 20pt;
+	font-weight: normal;
+	mc-heading-level: 3;
+	margin-bottom: 6 pt;
+	margin-top: 18pt;
+	margin-left: 3.5cm;
+	mc-auto-number-class: mc-auto-number-position;
+	mc-leader-align: right;
+	mc-auto-number-position: outside-head;
+	mc-auto-number-offset: 15mm;
+	mc-auto-number-format: 'SH:{n}.{n+}  ';
+	page-break-after: avoid;
+}
+
+p.Bullet1_RedSquare
+{
+	margin-top: 8pt;
+	color: #000000;
+	font-size: 13pt;
+	margin-bottom: 4pt;
+	font-family: Calibri;
+	mc-auto-number-offset: -6mm;
+	text-indent: -6mm;
+	mc-auto-number-format: 'B:{color red}{family Wingdings}n{/family}{/color}  ';
+	margin-left: 4cm;
+}
+
+td.Unite_AltRow_Numeric	/*Col1 Bold centre Col2 Right align*/
+{
+	
+}
+
+th.TableStyle-Unite_T1-Header
+{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+td.TableStyle-Unite_TableCol2
+{
+	
+}
+
+td.TableStyle-Unite_T1-Col1	/*Centre bold*/
+{
+	
+}
+
+p.Unite_Col2_Right
+{
+	color: #000000;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	font-family: Calibri;
+	margin-left: 0;
+	font-size: 11pt;
+	text-align: right;
+}
+
+h2.SectionHeadingNoNumber
+{
+	font-family: Calibri;
+	color: #c40400;
+	font-size: 20pt;
+	font-weight: normal;
+	margin-bottom: 6 pt;
+	margin-top: 18pt;
+	margin-left: 0cm;
+	mc-auto-number-format: '{ }';
+	page-break-after: avoid;
+}
+
+p.Block_Quote
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	text-align: center;
+	margin-left: 1.25cm;
+	margin-right: 1.25cm;
+}
+
+p.Block_Quote_Justified
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	margin-left: 1.25cm;
+	margin-right: 1.25cm;
+	text-align: justify;
+}
+
+h3
+{
+	font-family: Calibri;
+	page-break-after: avoid;
+	mc-heading-level: 4;
+}
+
+p.AuthorHint
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	font-size: 13pt;
+	margin-left: 3.5cm;
+	text-indent: 0cm;
+	mc-hyphenate: never;
+	background-color: #ffff00;
+	color: #ff0000;
+	mc-conditions: 'Default.AuthorHint';
+	font-style: italic;
+}
+
+MadCap|variable.RunningHeader
+{
+	font-size: 10pt;
+}
+
+p.TableTitle_Indent
+{
+	font-weight: bold;
+	mc-hyphenate: never;
+	mc-auto-number-format: 'GT: Table {n+}: ';
+	text-align: center;
+	margin-left: 3.5 cm;
+	margin-bottom: 6pt;
+	text-indent: 0;
+}
+
+p.ImageIndent
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	margin-left: 3.5cm;
+	text-indent: 0cm;
+	mc-hyphenate: never;
+	text-align: center;
+}
+
+p.ImageCentre
+{
+	margin-top: 8pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+	color: #000000;
+	font-size: 13pt;
+	text-indent: 0cm;
+	mc-hyphenate: never;
+	text-align: center;
+	margin-left: 0cm;
+}
+
+p.FigureTitleIndent
+{
+	font-weight: bold;
+	text-align: center;
+	mc-auto-number-format: 'GF: Figure {n+} ';
+	margin-left: 3.5cm;
+}
+
+h4
+{
+	page-break-before: avoid;
+	mc-heading-level: 5;
+}
+
+p.TOC7
+{
+	margin-left: 0;
+}
+

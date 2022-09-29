@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../TableStyles/Unite T3.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../TableStyles/Unite T1.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../TableStyles/Unite T2.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h2 class="SectionHeadingNoIndent" MadCap:autonum="0.1 &#160;">To create a table:</h2>
+        <p>Type a table title and tag it p.TableTitle. This will create an entry in the Table of Tables.</p>
+        <p>Insert a snippet with the necessary style. (For less columns, delete columns, for more, insert columns):</p>
+        <ol>
+            <li>
+                <p>Select: Insert/Snippet/T1_6 col (or Insert/Snippet/T2_6 col or Insert/Snippet/T3_4 col)</p>
+            </li>
+            <li>
+                <p>Right click the snippet and choose Convert to text</p>
+            </li>
+            <li>
+                <p>Overtype the text for each cell.</p>
+            </li>
+        </ol>
+        <table style="width: 100%;mc-table-style: url('../TableStyles/Unite T1.css');" class="TableStyle-Unite_T1" cellspacing="0">
+            <col class="TableStyle-Unite_T1-Column-Column1" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Unite_T1-Head-Header1">
+                    <th class="TableStyle-Unite_T1-HeadE-Column1-Header1">
+                        <p>H1C1</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>H1C2</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>H1C3</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>H1C4</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>H1C5</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadD-Column2-Header1">
+                        <p>H1C6</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Unite_T1-Body-Body1">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body1">
+                        <p class="Unite_Col1_Body">R1C1</p>
+                    </td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">R1C2</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">R1C3</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">R1C4</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">R1C5</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body1">R1C6</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body2">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body2">
+                        <p class="Unite_Col1_Body">R2C1</p>
+                    </td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">R2C2</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">R2C3</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">R2C4</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">R2C5</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body2">R2C6</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body1">
+                    <td class="TableStyle-Unite_T1-BodyB-Column1-Body1">
+                        <p class="Unite_Col1_Body">R3C1</p>
+                    </td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body1">R1C2</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body1">R3C3</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body1">R3C4</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body1">R3C5</td>
+                    <td class="TableStyle-Unite_T1-BodyA-Column2-Body1">R2C6</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>For right justified text (for example, for a numeric table) use T2.</p>
+        <table style="width: 100%; mc-table-style: url('../TableStyles/Unite T2.css');" class="TableStyle-Unite_T2" cellspacing="0">
+            <col class="TableStyle-Unite_T2-Column-Column1" style="width: 35mm;" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Unite_T2-Head-Header1">
+                    <th class="TableStyle-Unite_T2-HeadE-Column1-Header1">
+                        <p class="Unite_T1_Header">H1C1</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C2</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C2</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C4</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C5</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadD-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C6</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Unite_T2-Body-Body1">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body1">R1C1</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">R1C2</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">R1C3</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">R1C4</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">R1C5</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body1">R1C6</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body2">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body2">R2C1</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">R2C2</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">R2C3</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">R2C4</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">R2C5</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body2">R2C6</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body1">
+                    <td class="TableStyle-Unite_T2-BodyB-Column1-Body1">R3C1</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body1">R1C2</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body1">R3C3</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body1">R3C4</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body1">R3C5</td>
+                    <td class="TableStyle-Unite_T2-BodyA-Column2-Body1">R2C6</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>For indented  use T3.</p>
+        <MadCap:snippetBlock src="T3_4 col.flsnp" />
+    </body>
+</html>

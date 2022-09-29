@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/50 -Drivers.htm"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/51 -What is most important to the organisation (Leave as question).htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/52 -What is most important to the organisation (Change to answer).htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/53a -Where and how does the organisation make its money (Leave as question).htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/53b -Where and how does the organisation make its money (Change to answer).htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/54 -How much money does the organisation make Does it make profit (Leave as question).htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/55 -How much money does the organisation make Does it make profit (Change to answer).htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/56 -Who are the organisation’s customers (Leave as question).htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/57 -Who are the organisation’s customers (Change to answer).htm"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/58 -Are there any events which the customers will attend (Change to answer).htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/59 -Which tenders and  or contract renewals are coming up (Leave as question).htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/60 -Which tenders and  or contract renewals are coming up (Change to answer).htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/61 -Where and how is the organisation looking to grow (leave as question).htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/62 -Where and how is the organisation looking to grow (Change to answer).htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/63 -Does the organisation work together with other companies (Leave as question).htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/64 -Does the organisation work together with other companies (Change to answer).htm"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/65 -Who supplies the organisation (Change to answer).htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/66 -Who provides funding to the organisation (Leave as question).htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/67 -Who provides funding to the organisation (Change to answer).htm"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/68 -Is the organisation associated with any external organisations (Change to answer).htm"></TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/69 -Does the organisation sponsor anybody (Change to answer).htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topics/70 -What dirt is there on the organisation, including tax (Leave as a question).htm">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/71 -What dirt is there on the organisation, including tax (Change to answer).htm"></TocEntry>
+  </TocEntry>
+</CatapultToc>

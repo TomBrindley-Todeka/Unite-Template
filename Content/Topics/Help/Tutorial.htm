@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../Resources/TableStyles/Unite T1.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Unite T2.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Unite T2.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Unite T2.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Unite T3.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/Unite T1.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Unite Flare Threat Template Tutorial</h1>
+        <p>This tutorial takes you through the process of creating a Threat Paper from the Unite Threat template.</p>
+        <p>We will cover:</p>
+        <ul>
+            <li>
+                <p>Creating a new project from the template.</p>
+            </li>
+            <li>
+                <p>Setting the global variables</p>
+            </li>
+            <li>
+                <p>Binding the project to Source Control</p>
+            </li>
+            <li>
+                <p>Editing topics</p>
+            </li>
+            <li>
+                <p>Building (compiling) the project</p>
+            </li>
+            <li>
+                <p>Outputting the project to PDF file</p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>We will also touch on the tools used to manage Source Control.</p>
+            </li>
+        </ul>
+        <p>This is not a Flare training course, but I will answer any questions and we will touch on many of Flares tools.</p>
+        <p>If you have access to a PC&#160;running Flare you can replicate much of what we will cover in real time.</p>
+        <p>This tutorial will be available as a PDF.</p>
+        <h1>Process Summary</h1>
+        <p>We have created a Flare template (a dummy project) from which other Threat papers can be written. Supporting the Flare template are the styles and page layouts required for a PDF&#160;output. The assumption is that a single paper will be written by a team of authors who will review and edit each other's work, so the use of a source control system is essential.</p>
+        <p>The overall process is:</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;1. &#160;&lt;/span&gt; ">Create a new project</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;2. &#160;&lt;/span&gt; ">Set the global variables such as Threat paper name, creation date, version control</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;3. &#160;&lt;/span&gt; ">Download the latest global style sheets (Unite style and Table styles)</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;4. &#160;&lt;/span&gt; ">Commit to source control (GIT)</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;5. &#160;&lt;/span&gt; ">Close the project</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;6. &#160;&lt;/span&gt; ">Assign topics to authors</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;7. &#160;&lt;/span&gt; ">Each author creates a project from the source control master</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;8. &#160;&lt;/span&gt; ">Open a topic to edit</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;9. &#160;&lt;/span&gt; ">Edit each topic with text, tables, charts and diagrams</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;10. &#160;&lt;/span&gt; ">Commit to source control (GIT)</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;11. &#160;&lt;/span&gt; ">Build (compile) the Threat paper</p>
+        <p class="NumBullet1" MadCap:autonum="&lt;span style=&quot;color: Red;&quot; class=&quot;mcFormatColor&quot;&gt;12. &#160;&lt;/span&gt; ">Publish Threat paper</p>
+        <h1 MadCap:autonum="">Global Project</h1>
+        <p>The threat template is held in Github as a Global master (parent) project. Threat papers are linked back to this project such that certain files, such as style sheets and page layouts are always downloaed from the master prior to building an output.</p>
+        <p class="ImageCentre">
+            <img src="../../Resources/Images/Global Project diagram.png" />
+        </p>
+        <h2 class="SectionHeadingNoNumber" MadCap:autonum="">Create a new project</h2>
+        <p>There are three ways to create a new project: </p>
+        <ul>
+            <li>
+                <p>Create from Template </p>
+            </li>
+            <li>
+                <p>Create from a previous Threat paper</p>
+            </li>
+            <li>
+                <p>Create from source control.</p>
+            </li>
+        </ul>
+        <h3>Create from Template</h3>
+        <p>Select File&gt;New Project&gt;New Project</p>
+        <p>
+            <img src="../../Resources/Images/NewProject_1.png" />
+        </p>
+        <p>The New Project Wizard opens </p>
+        <h3>Select language</h3>
+        <p>
+            <img src="../../Resources/Images/NewProject_2.png" />
+        </p>
+        <p>By default, Flare creates new projects in US English. (We can change this in the Flare master files, but it will revert after every update.)</p>
+        <p>Select <b>UK English</b> and click <b>Next</b>.</p>
+        <p>The New Project source page opens and you can choose either to create from a template or create from an existing project.</p>
+        <ul>
+            <li>
+                <p>If this is a new Threat Paper for a new company, choose Create from Template.</p>
+            </li>
+            <li>
+                <p>If this a revision or update to a previous company, choose Create from Existing.</p>
+            </li>
+        </ul>
+        <h3>Create from Template</h3>
+        <ol>
+            <li>
+                <p>Choose the template to use (defaults to the last used template).</p>
+            </li>
+            <li>
+                <p>Click next.</p>
+            </li>
+            <li>
+                <p>Select Target output (normally PDF).<br /></p>
+            </li>
+            <p>
+                <img src="../../Resources/Images/NewProject_3.png" style="min-width: auto;width: 651px;height: 282px;" />
+            </p>
+            <li>
+                <p>Click <b>Finish</b>.</p>
+            </li>
+        </ol>
+        <h3>Create from Existing</h3>
+        <ol>
+            <li>
+                <p>Click on <b>New From Existing</b></p>
+            </li>
+            <li>
+                <p>Click <img src="../../Resources/Images/Menu ...png" /> and browse to the source project.</p>
+            </li>
+            <li>
+                <p>Click Next</p>
+            </li>
+            <li>
+                <p>Choose the target output (normally PDF).</p>
+            </li>
+        </ol>
+        <h3>Create from Source control</h3>
+        <ol>
+            <li>
+                <p>Click on <b>Filer&gt;New Project&gt;Import From Source Control</b></p>
+            </li>
+            <li>
+                <p>Click <img src="../../Resources/Images/Menu ...png"></img> and browse to the source project.</p>
+            </li>
+            <li>
+                <p>Click Next</p>
+            </li>
+            <li>
+                <p>Choose the target output (normally PDF).</p>
+            </li>
+        </ol>
+        <h2 class="SectionHeadingNoNumber" MadCap:autonum="">Bind to source control</h2>
+        <p>The exact details of this are yet to be determined by your IT&#160;department. The following is based on a local GIT repository.</p>
+        <p><i>Note: This can be done from the new project page.</i>
+        </p>
+        <ol>
+            <li>
+                <p>Open the source control dialog: Project&gt;Project Properties&gt;Source Control</p>
+            </li>
+            <p>
+                <img src="../../Resources/Images/Source control_1.png" />
+            </p>
+            <li>
+                <p>Click <b>Bind Project</b>.</p>
+            </li>
+            <p>
+                <img src="../../Resources/Images/Source control_2.png" />
+            </p>
+            <p>
+                <li>Select the Source Control Provider (for example GIT).</li>
+            </p>
+            <p>
+                <li>Type your name and email address and choose Save Per: User</li>
+            </p>
+            <p>
+                <li>Click OK.</li>
+            </p>
+            <p>
+                <img src="../../Resources/Images/Source control_3.png" />
+            </p>
+            <p>
+                <li>Flare sets up the source control files in the local repository. From now on, you can save and COMMIT changes and these will be recorded locally and you can PUSH changes to a central repository. You can then roll back to any previous saved state. <br />Flare also supports branching where you can have two separate parallel topic versions (which can be merged at a later date.</li>
+            </p>
+        </ol>
+        <h1>Setting the Global Variables</h1>
+        <p>The Threat Template includes place holders for global variables such as:</p>
+        <ul>
+            <li>
+                <p>Author (I suggest you set this to document lead or project manager)</p>
+            </li>
+            <li>
+                <p>Document Title</p>
+            </li>
+            <li>
+                <p>Document SubTitle</p>
+            </li>
+            <li>
+                <p>Document Date</p>
+            </li>
+            <li>
+                <p>Version (I suggest you set to 0.01, revision control is outside the scope of Flare)</p>
+            </li>
+        </ul>
+        <p>These are held in the Global variableSet (Project Organiser&lt;Variables).</p>
+        <p>
+            <img src="../../Resources/Images/Project variables.png" />
+        </p>
+        <h1>Topics</h1>
+        <p>The Threat paper is divided into four sections:</p>
+        <ul>
+            <li>
+                <p>Front Matter</p>
+            </li>
+            <li>
+                <p>Decision Makers</p>
+            </li>
+            <li>
+                <p>Drivers</p>
+            </li>
+            <li>
+                <p>Back matter</p>
+            </li>
+        </ul>
+        <p>The Front Matter includes three topics: Front Page and Contents (automatically populated), and Revisions (Manually populated).</p>
+        <p>The Decision Makers section comprises 13 topics numbered (for convenience only) "1 - xxx" to "13 -xxx".</p>
+        <p>The Drivers section comprises 21 topics numbered (for convenience only) "51 - xxx" to "71 -xxx".</p>
+        <p>The Back Matter includes three topics, (all automatically populated): Figures, Tables, Endnotes.</p>
+        <p>There are two types of content topics:</p>
+        <ul>
+            <li>
+                <p>Leave as question</p>
+            </li>
+            <li>
+                <p>Change to Answer</p>
+            </li>
+        </ul>
+        <p>These are easily distinguished as there is an author hint (which is not printed) stating which is which.</p>
+        <p>
+            <img src="../../Resources/Images/Leave as Question.png" style="width: 510px;height: 116px;" />
+        </p>
+        <p>You can see that the (Leave as question) text is contained in text markers with a blue square. This is marking Conditional Text. The Target is set to exclude this text. You can change the text (for example, change "organisation" to "company".</p>
+        <p style="text-indent: 0.5in;"><code style="font-size: 10pt;">&lt;span MadCap:conditions="Default.AuthorHint"&gt;(Leave as question)&lt;/span&gt;&lt;/h1&gt;</code>
+        </p>
+        <p>
+            <img src="../../Resources/Images/Change an answer.png" style="width: 397px;height: 75px;" />
+        </p>
+        <p>Replace this text with your answer.</p>
+        <p>
+            <img src="../../Resources/Images/Answer example.png" style="width: 697px;height: 477px;" />
+        </p>
+        <h1>Endnotes</h1>
+        <p>The new text includes 4 cross references: Australia.<sup>1</sup>, 118 ports,<sup>2</sup> separate port operation.<sup>3</sup> and subsidiaries:<sup>4</sup></p>
+        <p>Topic (2 -What kind of organisation is it and is it part of a group?...) includes some guidance on inserting external cross references for which we use the Flare Endnotes function.</p>
+        <p class="TemplateNote">To add external references, for example to web searches, use an endnote (a type of footnote)<MadCap:footnote style="mc-footnote-position: endnote;"><a href="http://www.todeka.co.uk/">My new endnote</a></MadCap:footnote>.</p>
+        <p class="TemplateNote">Position the cursor where you want the reference number to appear.</p>
+        <p class="TemplateNote">Select <b style="font-style: italic; text-decoration: underline;">Insert/Footnote</b> from the ribbon.</p>
+        <p class="TemplateNote">
+            <img src="../../Resources/Images/Endnote2.png" />
+        </p>
+        <p class="TemplateNote">Select <b style="font-style: italic;">Endnotes Proxy</b>.</p>
+        <p class="TemplateNote" MadCap:conditions="Default.AuthorHint">Click <b style="font-style: italic;">OK</b>.</p>
+        <p class="TemplateNote">The footnote appears at the bottom of the page (it will not be present on printed output).</p>
+        <p class="TemplateNote">Overtype "My new footnote" with the cross reference text.</p>
+        <p class="TemplateNote">Highlight the text an select <i style="font-weight: bold;">Insert/Hyperlink</i>.</p>
+        <p class="TemplateNote">Type the URL of the page to be referenced.</p>
+        <p class="TemplateNote">The end note will appear in a table at the end of the document (achieved using  an Endnote proxy, contained in the Endnote topic.)</p>
+        <p>You can now continue working through the template topics, adding answers to the questions and including Figures and Tables.</p>
+        <p>Be aware that other authors might be working on topics. The source control function will take care of these changes and highlight any conflicts (where a topic has been changed by two authors).</p>
+        <p>You will not see the other authors' changes in real time, but you can always re sync your project.</p>
+        <p>SourceControl&gt;<img src="../../Resources/Images/Synchronize icon.png" />Synchronise</p>
+        <h1>Figures</h1>
+        <p>Figures (illustrations or images) are marked by the FigureTitle paragraph tag.</p>
+        <p>
+            <img src="../../Resources/Images/Ford brand mix.png" />
+        </p>
+        <p class="FigureTitle" MadCap:autonum=" Figure 1 ">Ford brand mix</p>
+        <p>The word Figure is part of the style, so don't type this.</p>
+        <p>The Figures will be consecutively numbered at build time</p>
+        <p>The list of figures will appear in the Figures topic at build time.</p>
+        <h1>Tables</h1>
+        <p>Tables are created using the Insert&gt;Table function.  Flare table styles are defined by their own CSS and stored in the Resources&gt;TableStyles folder. The layout and appearance are determined by the table style.</p>
+        <p>Examples of tables are contained within the template (but not in the output) in topic: <MadCap:xref href="Table Examples.htm"><a href="Table Examples.htm">Table Examples</a></MadCap:xref>.</p>
+        <p>The simplest way to create a table is using the table snippets.</p>
+        <h2 class="SectionHeadingNoNumber" MadCap:autonum="">To create a table:</h2>
+        <p>Type a table title and tag it p.TableTitle. This will create an entry in the Table of Tables.</p>
+        <p>Insert a snippet with the necessary style. (For less columns, delete columns, for more, insert columns):</p>
+        <ol>
+            <li>
+                <p>Select: Insert/Snippet/T1_6 col (or Insert/Snippet/T2_6 col or Insert/Snippet/T3_4 col)</p>
+            </li>
+            <li>
+                <p>Right click the snippet and choose Convert to text</p>
+            </li>
+            <li>
+                <p>Overtype the text for each cell.</p>
+            </li>
+        </ol>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/Unite T1.css');" class="TableStyle-Unite_T1" cellspacing="0">
+            <col class="TableStyle-Unite_T1-Column-Column1" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Unite_T1-Head-Header1">
+                    <th class="TableStyle-Unite_T1-HeadE-Column1-Header1">
+                        <p>H1C1</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>H1C2</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>H1C3</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>H1C4</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>H1C5</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadD-Column2-Header1">
+                        <p>H1C6</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Unite_T1-Body-Body1">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body1">
+                        <p class="Unite_Col1_Body">R1C1</p>
+                    </td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">R1C2</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">R1C3</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">R1C4</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">R1C5</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body1">R1C6</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body2">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body2">
+                        <p class="Unite_Col1_Body">R2C1</p>
+                    </td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">R2C2</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">R2C3</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">R2C4</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">R2C5</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body2">R2C6</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body1">
+                    <td class="TableStyle-Unite_T1-BodyB-Column1-Body1">
+                        <p class="Unite_Col1_Body">R3C1</p>
+                    </td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body1">R1C2</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body1">R3C3</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body1">R3C4</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body1">R3C5</td>
+                    <td class="TableStyle-Unite_T1-BodyA-Column2-Body1">R2C6</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>For right justified text (for example, for a numeric table) use T2.</p>
+        <table style="width: 100%; mc-table-style: url('../../Resources/TableStyles/Unite T2.css');" class="TableStyle-Unite_T2" cellspacing="0">
+            <col class="TableStyle-Unite_T2-Column-Column1" style="width: 35mm;" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Unite_T2-Head-Header1">
+                    <th class="TableStyle-Unite_T2-HeadE-Column1-Header1">
+                        <p class="Unite_T1_Header">H1C1</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C2</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C2</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C4</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C5</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadD-Column2-Header1">
+                        <p class="Unite_T1_Header">H1C6</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Unite_T2-Body-Body1">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body1">R1C1</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">R1C2</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">R1C3</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">R1C4</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">R1C5</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body1">R1C6</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body2">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body2">R2C1</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">R2C2</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">R2C3</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">R2C4</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">R2C5</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body2">R2C6</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body1">
+                    <td class="TableStyle-Unite_T2-BodyB-Column1-Body1">R3C1</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body1">R1C2</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body1">R3C3</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body1">R3C4</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body1">R3C5</td>
+                    <td class="TableStyle-Unite_T2-BodyA-Column2-Body1">R2C6</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>For indented  use T3.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/T3_4 col.flsnp" />
+        <h3>Unite T1</h3>
+        <p>Unite T1 has row 1 set to white out of red with following rows alternating grey/white.</p>
+        <p>Column 1 is bold.</p>
+        <p>Text is centred on the column.</p>
+        <p class="TableTitle" MadCap:autonum=" Table 1: ">Style Unite T1</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/Unite T1.css');" class="TableStyle-Unite_T1" cellspacing="0">
+            <col style="width: 35mm;" class="TableStyle-Unite_T1-Column-Column1" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <col class="TableStyle-Unite_T1-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Unite_T1-Head-Header1">
+                    <th class="TableStyle-Unite_T1-HeadE-Column1-Header1">
+                        <p>Company</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>Turnover ($000s)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>Profit Before <br />Tax ($000s)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>Profit After <br />Tax ($000s)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadF-Column2-Header1">
+                        <p>Market <br />Share (%)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T1-HeadD-Column2-Header1">
+                        <p>Workers <br />(1000s)</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Unite_T1-Body-Body1">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body1">Toyota</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">253,515,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">23,863,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">17,910</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">9.46%</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body1">371</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body2">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body2">Volkswagen</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">237,453,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">18,474,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">14,352</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">7.38%</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body2">303</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body1">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body1">Ford</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">160,338,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">4,345,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">3,677</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">6.30%</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body1">199</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body2">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body2">Nissan</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">108,930,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">8,797,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">6,385</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">5.42%</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body2">139</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body1">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body1">Honda</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">119,371,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">10,065,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">10,188</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">5.39%</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body1">217</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body2">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body2">Daimler (Mercedes)</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">166,626,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">12,512,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">8,954</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">5.30%</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body2">296</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body1">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body1">Hyundai</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">88,050,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">2,301,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">1,496</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">4.76%</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body1">105</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body2">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body2">GM (Chevrolet)</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">133,045,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">8,549,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">8,005</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body2">4.39%</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body2">173</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body1">
+                    <td class="TableStyle-Unite_T1-BodyE-Column1-Body1">Kia (2017)</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">50,202,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">1,069,000</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">908</td>
+                    <td class="TableStyle-Unite_T1-BodyF-Column2-Body1">3.08%</td>
+                    <td class="TableStyle-Unite_T1-BodyD-Column2-Body1">53</td>
+                </tr>
+                <tr class="TableStyle-Unite_T1-Body-Body2">
+                    <td class="TableStyle-Unite_T1-BodyB-Column1-Body2">Renault</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body2">64,021,000</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body2">4,929,000</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body2">4,076</td>
+                    <td class="TableStyle-Unite_T1-BodyC-Column2-Body2">2.72%</td>
+                    <td class="TableStyle-Unite_T1-BodyA-Column2-Body2">181</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Unite T2</h3>
+        <p>Unite T2 has row 1 set to white out of red with following rows alternating grey/white.</p>
+        <p>Column 1 is bold.</p>
+        <p>Text is right justified on the remaining columns.</p>
+        <p class="TableTitle" MadCap:autonum=" Table 2: ">Style Unite T2</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/Unite T2.css');" class="TableStyle-Unite_T2" cellspacing="0">
+            <col style="width: 35mm;" class="TableStyle-Unite_T2-Column-Column1" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <col class="TableStyle-Unite_T2-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Unite_T2-Head-Header1">
+                    <th class="TableStyle-Unite_T2-HeadE-Column1-Header1">
+                        <p>Company</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p>Turnover ($000s)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p>Profit Before <br />Tax ($000s)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p>Profit After <br />Tax ($000s)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadF-Column2-Header1">
+                        <p>Market <br />Share (%)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T2-HeadD-Column2-Header1">
+                        <p>Workers <br />(1000s)</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Unite_T2-Body-Body1">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body1">Toyota</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">253,515,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">23,863,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">17,910</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">9.46%</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body1">371</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body2">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body2">Volkswagen</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">237,453,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">18,474,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">14,352</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">7.38%</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body2">303</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body1">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body1">Ford</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">160,338,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">4,345,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">3,677</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">6.30%</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body1">199</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body2">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body2">Nissan</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">108,930,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">8,797,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">6,385</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">5.42%</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body2">139</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body1">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body1">Honda</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">119,371,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">10,065,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">10,188</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">5.39%</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body1">217</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body2">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body2">Daimler (Mercedes)</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">166,626,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">12,512,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">8,954</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">5.30%</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body2">296</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body1">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body1">Hyundai</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">88,050,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">2,301,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">1,496</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">4.76%</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body1">105</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body2">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body2">GM (Chevrolet)</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">133,045,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">8,549,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">8,005</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body2">4.39%</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body2">173</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body1">
+                    <td class="TableStyle-Unite_T2-BodyE-Column1-Body1">Kia (2017)</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">50,202,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">1,069,000</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">908</td>
+                    <td class="TableStyle-Unite_T2-BodyF-Column2-Body1">3.08%</td>
+                    <td class="TableStyle-Unite_T2-BodyD-Column2-Body1">53</td>
+                </tr>
+                <tr class="TableStyle-Unite_T2-Body-Body2">
+                    <td class="TableStyle-Unite_T2-BodyB-Column1-Body2">Renault</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body2">64,021,000</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body2">4,929,000</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body2">4,076</td>
+                    <td class="TableStyle-Unite_T2-BodyC-Column2-Body2">2.72%</td>
+                    <td class="TableStyle-Unite_T2-BodyA-Column2-Body2">181</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Unite T3</h3>
+        <p>Unite T3 is the same as T1 but indented.</p>
+        <p class="TableTitle" MadCap:autonum=" Table 3: ">Style Unite T3</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/Unite T3.css');" class="TableStyle-Unite_T3" cellspacing="0">
+            <col style="width: 35mm;" class="TableStyle-Unite_T3-Column-Column1" />
+            <col class="TableStyle-Unite_T3-Column-Column2" />
+            <col class="TableStyle-Unite_T3-Column-Column2" />
+            <col class="TableStyle-Unite_T3-Column-Column2" />
+            <col class="TableStyle-Unite_T3-Column-Column2" />
+            <col class="TableStyle-Unite_T3-Column-Column2" />
+            <thead>
+                <tr class="TableStyle-Unite_T3-Head-Header1">
+                    <th class="TableStyle-Unite_T3-HeadE-Column1-Header1">
+                        <p>Company</p>
+                    </th>
+                    <th class="TableStyle-Unite_T3-HeadF-Column2-Header1">
+                        <p>Turnover ($000s)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T3-HeadF-Column2-Header1">
+                        <p>Profit Before <br />Tax ($000s)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T3-HeadF-Column2-Header1">
+                        <p>Profit After <br />Tax ($000s)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T3-HeadF-Column2-Header1">
+                        <p>Market <br />Share (%)</p>
+                    </th>
+                    <th class="TableStyle-Unite_T3-HeadD-Column2-Header1">
+                        <p>Workers <br />(1000s)</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Unite_T3-Body-Body1">
+                    <td class="TableStyle-Unite_T3-BodyE-Column1-Body1">Toyota</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">253,515,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">23,863,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">17,910</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">9.46%</td>
+                    <td class="TableStyle-Unite_T3-BodyD-Column2-Body1">371</td>
+                </tr>
+                <tr class="TableStyle-Unite_T3-Body-Body2">
+                    <td class="TableStyle-Unite_T3-BodyE-Column1-Body2">Volkswagen</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">237,453,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">18,474,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">14,352</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">7.38%</td>
+                    <td class="TableStyle-Unite_T3-BodyD-Column2-Body2">303</td>
+                </tr>
+                <tr class="TableStyle-Unite_T3-Body-Body1">
+                    <td class="TableStyle-Unite_T3-BodyE-Column1-Body1">Ford</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">160,338,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">4,345,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">3,677</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">6.30%</td>
+                    <td class="TableStyle-Unite_T3-BodyD-Column2-Body1">199</td>
+                </tr>
+                <tr class="TableStyle-Unite_T3-Body-Body2">
+                    <td class="TableStyle-Unite_T3-BodyE-Column1-Body2">Nissan</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">108,930,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">8,797,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">6,385</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">5.42%</td>
+                    <td class="TableStyle-Unite_T3-BodyD-Column2-Body2">139</td>
+                </tr>
+                <tr class="TableStyle-Unite_T3-Body-Body1">
+                    <td class="TableStyle-Unite_T3-BodyE-Column1-Body1">Honda</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">119,371,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">10,065,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">10,188</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">5.39%</td>
+                    <td class="TableStyle-Unite_T3-BodyD-Column2-Body1">217</td>
+                </tr>
+                <tr class="TableStyle-Unite_T3-Body-Body2">
+                    <td class="TableStyle-Unite_T3-BodyE-Column1-Body2">Daimler (Mercedes)</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">166,626,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">12,512,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">8,954</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">5.30%</td>
+                    <td class="TableStyle-Unite_T3-BodyD-Column2-Body2">296</td>
+                </tr>
+                <tr class="TableStyle-Unite_T3-Body-Body1">
+                    <td class="TableStyle-Unite_T3-BodyE-Column1-Body1">Hyundai</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">88,050,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">2,301,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">1,496</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">4.76%</td>
+                    <td class="TableStyle-Unite_T3-BodyD-Column2-Body1">105</td>
+                </tr>
+                <tr class="TableStyle-Unite_T3-Body-Body2">
+                    <td class="TableStyle-Unite_T3-BodyE-Column1-Body2">GM (Chevrolet)</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">133,045,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">8,549,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">8,005</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body2">4.39%</td>
+                    <td class="TableStyle-Unite_T3-BodyD-Column2-Body2">173</td>
+                </tr>
+                <tr class="TableStyle-Unite_T3-Body-Body1">
+                    <td class="TableStyle-Unite_T3-BodyE-Column1-Body1">Kia (2017)</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">50,202,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">1,069,000</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">908</td>
+                    <td class="TableStyle-Unite_T3-BodyF-Column2-Body1">3.08%</td>
+                    <td class="TableStyle-Unite_T3-BodyD-Column2-Body1">53</td>
+                </tr>
+                <tr class="TableStyle-Unite_T3-Body-Body2">
+                    <td class="TableStyle-Unite_T3-BodyB-Column1-Body2">Renault</td>
+                    <td class="TableStyle-Unite_T3-BodyC-Column2-Body2">64,021,000</td>
+                    <td class="TableStyle-Unite_T3-BodyC-Column2-Body2">4,929,000</td>
+                    <td class="TableStyle-Unite_T3-BodyC-Column2-Body2">4,076</td>
+                    <td class="TableStyle-Unite_T3-BodyC-Column2-Body2">2.72%</td>
+                    <td class="TableStyle-Unite_T3-BodyA-Column2-Body2">181</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Styles</h1>
+        <p>The cascading style sheet Unite Master Style Sheet.css contains all the styles you need to create a threat template.</p>
+        <p>Examples of styles are shown in the topic <a href="Styles.htm">Styles</a></p>
+        <p>If you need to create a style, request this from the Flare administrator. The master style sheet will be reapplied each time the Threat paper is built, so creating a local style will be overwritten.</p>
+        <h1>Table of Contents</h1>
+        <p>There are three TOCs:</p>
+        <ul>
+            <li>
+                <p> A parent TOC (2022-07-25 Unite Threat Sample (Master)</p>
+            </li>
+            <li>
+                <p>A subsidiary TOC (TOC-Decisions Makers)</p>
+            </li>
+            <li>
+                <p>A subsidiary TOC (TOC-Drivers Makers)</p>
+            </li>
+        </ul>
+        <p>The TOCs determine which topics are included in the output.</p>
+        <p>
+            <img src="../../Resources/Images/TOC image.png" />
+        </p>
+        <p>The master TOC calls up the subsidiary TOCs</p>
+        <p><i>Note: Template Notes are marked as conditional text (Author Hint) and so are not included in the output.</i>
+        </p>
+        <h1>Targets</h1>
+        <p>There is one Target (PDF). The Target determines:</p>
+        <ul>
+            <li>
+                <p>Which TOCs to use</p>
+            </li>
+            <li>
+                <p>Where the output is stored</p>
+            </li>
+            <li>
+                <p>What content to include/exclude</p>
+            </li>
+        </ul>
+        <p>The target dialog box has 12 tabs each with its own set of fields, but you can ignore these. The target is set up so you can just select Build, View or Publish from the main ribbon.</p>
+        <p>
+            <img src="../../Resources/Images/Target dialog.png" style="width: 100%;" />
+        </p>
+        <h2 class="SectionHeadingNoNumber" MadCap:autonum="">Build</h2>
+        <p>Build compiles the project but does not display the PDF. This is useful to check for errors (see the Build Log on the Builds panel) as it takes time to open and display the PDF output.</p>
+        <h2 class="SectionHeadingNoNumber" MadCap:autonum="">View</h2>
+        <p>View compiles the project, creates the PDF and displays it. <i>Note: you must close the PDF viewer before doing another view or build.</i></p>
+        <h2 class="SectionHeadingNoNumber" MadCap:autonum="">Publish</h2>
+        <p>Publish takes the compiled output and sends it to a new location, for example this could update a website or send it to a network location.</p>
+        <h1>Excel spreadsheets</h1>
+        <p>You can import an Excel spreadhseet into Flare. You can choose wheteher the imorted file is linked to the source file or not. If it is linked you can referesh the file which reimports the latest version of the soucr. You can set the refresh to occur automatically each time an output is generated. (Actually, you can do this with most file types).</p>
+        <p>When you import and link a spreadsheet, you can choose which sheets cells and charts to import and or link. You can even exclude certain cells from the displayed result.</p>
+        <h2 class="SectionHeadingNoNumber" MadCap:autonum="">Import a spreadsheet</h2>
+        <p>Use the Project&gt;Import&gt;Ms_Excel&gt;Spreadsheet tool.</p>
+        <p class="ImageCentre">
+            <img src="../../Resources/Images/Import spreadsheet.png" />
+        </p>
+        <p>Accept the default: Import into this project. Click next.</p>
+        <p class="ImageCentre">
+            <img src="../../Resources/Images/Import spreadsheet 2.png" />
+        </p>
+        <p>Click on <img src="../../Resources/Images/Add file button.png" /> and browse to the Excel file to be imported.</p>
+        <p>Check that the "Link generated files to source files box is ticked.</p>
+        <p>Click Next</p>
+        <p>&#160;</p>
+        <p class="ImageCentre">
+            <img src="../../Resources/Images/Screenshot 2022-09-23 123831.png" />
+        </p>
+        <p>Check the box <i>Auto-reimport before 'Generate Output'</i>.</p>
+        <p>Click Next.</p>
+        <p class="ImageCentre">
+            <img src="../../Resources/Images/Screenshot 2022-09-23 123921.png" />
+        </p>
+        <p>Select <i>Don't preserve MS Excel styles</i>.</p>
+        <p>Click Next.</p>
+        <p>A preview of the files to be imported is shown. Any charts or graphs are stored in the Content Explorer&gt;Resources&gt;Images folder. Excel files are converted to HTML&#160;tables and stored in a new topic file within a new folder such as: Content&gt;2022-09-23 Excel chart source&gt;Sheet1.htm.</p>
+        <h1>Pinned Styles</h1>
+        <p style="mc-hyphenate: never;">You can pin various elements such as styles, images, snippets such that they appear at the top of the pick list. Pinned elements are unique to each user and are stored in a folder under Project&gt;Users (Note that this folder is not visible within the Flare Project Organiser).</p>
+        <p style="mc-hyphenate: never;">When a different user opens a project for the first time, the pinned styles will need repinning.</p>
+        <p style="mc-hyphenate: never;">To avoid this, a pinned style for each user can be created in the template project. (Assumes youknow the Windows user name of each user).</p>
+        <p style="mc-hyphenate: never;">Open the template project in Windows File Explorer</p>
+        <p style="mc-hyphenate: never;">Browse to My Project&gt;....&gt;Project&gt;Users</p>
+        <p style="mc-hyphenate: never;">Create a new folder with the name of the Windows users (For example, myu Windows user name is thbri)</p>
+        <p style="mc-hyphenate: never;">Paste in the following file: PinnedStyles.xml</p>
+        <p style="mc-hyphenate: never;">This is a simple text file with typical content of:</p><pre>&lt;?xml version="1.0" encoding="utf-8"?&gt;</pre><pre>&lt;PinnedItems&gt;</pre><pre>&lt;PinnedItem Name="p.BodyHeading" /&gt;</pre><pre>&lt;PinnedItem Name="p.BodyText" /&gt;</pre><pre>&lt;PinnedItem Name="p.Bullet1_RedSquare" /&gt;</pre><pre xml:space="preserve">&lt;PinnedItem Name="p.FigureTitle" /&gt;</pre><pre xml:space="preserve">&lt;PinnedItem Name="p.TableTitle" /&gt;</pre><pre>&lt;PinnedItem Name="p.NumBullet1" /&gt;</pre><pre>&lt;PinnedItem Name="p.TableTitle" /&gt;</pre><pre>&lt;PinnedItem Name="h1.SectionHeadingNum" /&gt;</pre><pre>&lt;PinnedItem Name="h2.SectionHeadingL2Num" /&gt;</pre><pre>&lt;/PinnedItems&gt;</pre>
+        <p style="mc-hyphenate: never;">&#160;</p>
+    </body>
+</html>
